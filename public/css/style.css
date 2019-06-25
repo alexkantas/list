@@ -1,0 +1,208 @@
+
+
+html{
+    font-size: 20px;
+}
+
+body{
+    background: #F5F8F3;
+}
+
+.ui.middle.aligned{
+    min-height: 100vh;
+}
+
+.centered-content{
+    text-align: center;
+}
+
+.box{
+    background: linear-gradient(#003E17,#297C48);
+    color: #fff;
+    text-align: center;
+    padding: 5em;
+    border-radius: 1em;
+}
+
+.box.not-Alex{
+    background: linear-gradient(#FF0000,#7F0000);
+}
+
+.info-message{
+    margin-bottom: 1em !important;
+}
+
+.submit-button{
+        display: block !important;
+        margin-left: auto !important;
+        margin-right: auto !important;
+        padding: 1em !important;
+}
+
+.info-area{
+    min-height: 55vh;
+    max-height: 95vh;
+    overflow-y: auto;
+    overflow-x: hidden;
+    width: 100% !important;
+    font-size: 1.5rem;
+    line-height: 1.2em;
+}
+
+.info-area .meta{
+    font-size: 0.7em !important;
+}
+
+.description-area{
+    max-height: 40vh;
+    overflow-x: none;
+    overflow-y: auto;
+}
+
+.info-action-button{
+    font-size: 1.5rem !important;
+}
+
+.info-confirm-action{
+    margin-bottom: 0.2rem !important;
+}
+
+.main-area-nojs{
+    padding-bottom: 0 !important;
+}
+
+.navigation-buttons{
+    padding: 0 !important;
+}
+
+.notifications-area{
+    max-height: 90vh;
+    text-align: center;
+    overflow-y:auto;
+    overflow-x:hidden;
+}
+
+.notifications-area::-webkit-scrollbar {
+    width: 0px;
+}
+
+.notifications-area.notifications-area-nojs{
+    max-height: 80vh;
+}
+
+.notifications-area-nojs::-webkit-scrollbar {
+    width: initial;
+}
+.notifications-area-nojs::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+}
+.notifications-area-nojs::-webkit-scrollbar-thumb {
+    background-color: darkgrey;
+    outline: 1px solid slategrey;
+}
+
+#notifications{
+    list-style: none;
+    padding: 0;
+}
+
+.notification{
+    margin-bottom: 1em !important ;
+    width: 90%;
+    height: 20vh;
+}
+
+#errorBtn{
+    display: none;
+}
+
+.float-symbol{
+    position: fixed;
+    right: 1vw;
+    font-size:2em;
+}
+
+.add-symbol{
+    bottom: 3vh;
+}
+
+.list-symbol{
+    top: 3vh;
+}
+
+#notifNam{
+   font-style: italic;
+   color: #087F7C;
+}
+
+@media screen and (max-width: 768px){
+    .box{
+        padding: 5em 10px;
+    }
+
+    .box h1{
+        font-size: 50px;
+    }
+}
+
+@media screen and (max-width: 723px){
+
+    body{
+        min-width: 250px;
+    }
+
+    .info-area-container{
+        padding: 0 !important;
+    }
+
+    .main-area{
+        padding-left: 0 !important; 
+        padding-right: 0 !important; 
+    }
+}
+
+@media screen and (max-width: 520px){
+    .add-symbol{
+        bottom: 4em;
+    }
+}
+
+@media screen and (max-height: 567px){
+    .info-area-container{
+        margin-top: 3rem !important;
+    }
+}
+
+@media screen and (min-height: 568px) and (max-width: 768px){
+    html{
+        font-size: 24px;
+    }
+
+    .notification{
+    height: 15vh;
+    }
+
+    .info-area{
+        margin: 0 !important;
+    }
+
+    .info-area .meta{
+        font-size: 0.5em !important;
+    }
+
+    .info-area .content{
+        padding: 0.3rem !important;
+    }
+
+    .info-area .description-area{
+        margin: 0.1rem 0.1rem 0.3rem 0.1rem !important;
+    }
+
+    .info-area .description-area{
+        margin: 0.1rem 0.1rem 0.3rem 0.1rem !important;
+    }
+
+    .info-action-button{
+        padding: 0.3rem !important;
+    }
+}

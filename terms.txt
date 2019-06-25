@@ -1,0 +1,11 @@
+This website is developed for experamental purposes
+(all code is on github)
+
+A lot of security rules maybe conpromised
+(weak passwords, remote connections open, bad persmissions)
+
+Also all of uploaded images are --by application design available--
+
+Please behave like anything you do on this site will be public available
+
+If you like this portal and you want a production version of it let me know

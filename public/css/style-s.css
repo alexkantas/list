@@ -1,0 +1,148 @@
+body{
+    background-color: #f8f8f8;
+    display: flex;
+    min-height: 100vh;
+    width:100%;
+    padding: 0;
+    margin: 0;
+    align-items: center;
+    justify-content: center;
+}
+
+.main-area{
+    width: 50vw;
+}
+
+.main-notifications-area{
+    height: 80vh;
+    display: block;
+    overflow-y:auto;
+    overflow-x:hidden;
+}
+
+.main-notifications-area-insert{
+    height: 80vh;
+    display: block;
+    overflow-y:auto;
+    overflow-x:hidden;
+}
+
+#notifications{
+    list-style: none;
+    padding: 0;
+}
+
+.existnotifications{
+    height: 100%;
+}
+
+#loadmore{
+    display: none;
+}
+
+.loadmorebtn{
+    width: 100%;
+    height: 100%;
+}
+
+.existloadmore{
+    width: 98%;
+    height: 24%;
+}
+
+.info-area{
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: center;
+}
+
+.info-area-content{
+    height: 80vh;
+    display: block;
+    overflow:hidden;
+    line-height: 2em;
+    padding: 1em;
+    width: 100%;
+}
+
+.info-area-content .btn{
+    padding: 50px 10px;
+    display: block;
+    width: 100%;
+    height: 25%;
+    font-size: 2em;
+}
+
+.info-area-content .form-control{
+    height: 5em;
+    margin-bottom:1.5em;
+}
+
+.main-notifications-area .btn{
+    padding: 50px 100px;
+    display: block;
+    width: 90%;
+    height: 25%;
+    margin: 2em auto;
+}
+
+.main-notifications-area-insert .notifier-buttons{
+    display: inline-flex;
+    width: 98%;
+    height: 25%;
+    margin: 1em auto;
+}
+
+.notifier-buttons .btn{
+    height: 100%;
+    width: 100%;
+}
+
+.notifier-buttons form{
+    height: 100%;
+    width: 20%;
+    margin-left: 5px;
+}
+
+.notifier-buttons .btn-primary{
+    width: 70%;
+}
+
+.jumbotron{
+    text-align: center;
+    border-radius: 10px;
+}
+
+.welcome-message{
+    background-color: #003E17;
+    color:#fff;
+}
+
+.welcome-message-404{
+    background-color: darkred;
+    color:black;
+}
+
+.float-button{
+    position: fixed;
+    bottom:35px;
+    right: 15vw;
+    font-size:2em;
+}
+
+.float-button-home{
+    right: 50vw;
+}
+
+.float-button-reset{
+    left: 20vw;
+    right: initial;
+}
+
+
+@media (max-width:990px){
+    .main-area{
+    width: 100vw;
+}}
