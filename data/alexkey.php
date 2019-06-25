@@ -1,6 +1,6 @@
 <?php
 
 return [
-    'CookieName' => 'zzzboom',
-    'CookieValue' => 'alahavaviva'
+    'CookieName' => 'secret',
+    'CookieValue' => 'code'
 ];
