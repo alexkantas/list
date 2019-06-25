@@ -36,7 +36,7 @@ if(Notifier\Core\App::isAuthed()){
     <script>
         setTimeout(function () {
             $('#welcome-message').addClass("not-Alex");
-            $('#welcome-message h1').text("You are not Authed !!!");
+            $('#welcome-message h1').text("You are not Authorized !!!");
         }, 8000);
     </script>
 </body>
