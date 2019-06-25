@@ -10,27 +10,6 @@
         });
 
       function loadData(data){
-            var notifications = [];
-            $.each(data,function(index,notification){
-                var notificationItem = '<li class="notifier-buttons">'+
-                    '<button type="button" class="btn btn-primary"><?=$notification->name?></button>'+
-                    '<form action="/add/list/add" method="post">'+
-                 '<input type="hidden" name="id" value="<?=$notification->id?>">'+
-                    '<button type="submit" class="btn btn-success"><i class="glyphicon glyphicon-plus"></i></button>'+
-                    '</form>'+
-                    '<form action="/delete" method="post" onSubmit="return confirm(\'Do you really want to delte elemet $notification->name\');">'+
-                    '<button type="submit" class="btn btn-danger"><i class="glyphicon glyphicon-trash"></i></button>'+
-                   ' </form> </li>';
-                   console.log(notificationItem);
-                //notifications.push(notificationItem);
-                })
-            // $('#notifications').append(notifications); 
-            // if(notifications.length > 7){
-            //     lastelement = $('#notifications').children().last();
-            //     lastelement.hide();
-            //     loadmorebtn.css({"display":"block"});
-            //     offset += notifications.length;
-            // }
             
         }
 

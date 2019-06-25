@@ -63,7 +63,7 @@ $(document).ready(function () {
             method: "POST",
             data: { "id": currentId }
         }).done(function(){
-            console.log("Cool");
+
             reloadAction();
             loadmore();
             loadmorebtn.css({ "display": "inline-block" });
@@ -71,14 +71,12 @@ $(document).ready(function () {
     });
 
     deleteButton.click(function(){
-        console.log("Super clikx")
         $.ajax({
             dataType: "json",
             url: "/info/delete/now",
             method: "POST",
             data: { "id": currentId }
         }).done(function(){
-            console.log("Cool");
             reloadAction();
             loadmore();
             loadmorebtn.css({ "display": "inline-block" });
@@ -91,7 +89,6 @@ $(document).ready(function () {
     });
 
     loadmore = function () {
-        console.log("LP");
         $.ajax({
             dataType: "json",
             url: "/add/list/data",
@@ -109,7 +106,6 @@ $(document).ready(function () {
             currentId = Number($(this).attr('notificationId'));
             $('#notification-title').text(notificationData[index].name);
             $('#notification-description').text(notificationData[index].description || "");
-            console.log('run?');
             $('#infoModal').modal('show');
         });
     }
