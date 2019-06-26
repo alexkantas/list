@@ -19,6 +19,10 @@ CREATE TABLE `notification` (
 )
 ```
 
-Authenticate your acound by adding a cookie with `key` and `value` based on `data\alexkey.php`
+Authenticate your acount by adding a cookie with `key` and `value` based on `data\alexkey.php`
 
-Ⓒ 2017 - Alex Kantas
+## Authention
+
+Visit [/addCookie.html](http://list.kantas.net/addCookie.html), click on `Add cookie` and refresh the [home page](http://list.kantas.net)
+
+*Project of 2017 by Alex Kantas*
